@@ -201,6 +201,7 @@ async function createTread(user) {
 async function shortenFun(user) {
     document.querySelector('.container_news').innerHTML = `${treadTopRender()} ${treadsMainRender()} ${messageInRender()}`;
     document.querySelector('.upload_messages').addEventListener('click', () => { uploadMessage(user) });
+    uploadMessage(user)
     // document.querySelector('.message_send').removeEventListener('click', collect);
     // document.querySelector('.message_send').addEventListener('click', collectTreads);
     document.querySelector('.message_send').addEventListener('click', collect)
@@ -223,6 +224,7 @@ async function uploadMessage(user) {
     await getUsers()
     let block = await document.querySelector('.tread_main')
     block.innerHTML = await '';
-    console.log(user.treads[(currentUser.id)]);
+    console.log(user.treads);
+    console.log('aaa');
     await renderTreads(user.treads[(currentUser.id)]);
 }

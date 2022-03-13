@@ -59,6 +59,7 @@ function openTreads() {
                 treadUserId = user.id
                 shortenFun(user)
                 renderTreads(currentUser.treads[(user.id)]);
+                document.querySelector('.upload_messages').addEventListener('click', () => { uploadMessage(user) });
             })
         })
     }
