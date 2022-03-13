@@ -225,5 +225,5 @@ async function uploadMessage(user) {
     block.innerHTML = await '';
     console.log(user.treads);
     console.log('aaa');
-    await renderTreads(user.treads[(currentUser.id)]);
+    await renderTreads(currentUser.treads[treadUser.id]);
 }
