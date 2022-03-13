@@ -221,8 +221,18 @@ function returnNewsMain() {
 }
 async function uploadMessage(user) {
     await getUsers()
+    usersDate.forEach(item => {
+        if (item.id == currentUser.id) {
+            currentUser = item
+            currentUserId = currentUser.id
+        }
+        if (item.id == treadUser.id) {
+            treadUser = item;
+            treadUserId = treadUser.id
+        }
+    })
     let block = await document.querySelector('.tread_main')
-    block.innerHTML = await '';
+    block.innerHTML = '';
     console.log(user.treads);
     console.log('aaa');
     await renderTreads(currentUser.treads[treadUser.id]);
