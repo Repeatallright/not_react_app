@@ -7,7 +7,7 @@ let usersDate = JSON.parse(localStorage.getItem('users')) || [
         email: 'aaa',
         password: 'aaa',
         name: 'Amilia Luna',
-        img: "img/girl.png",
+        img: "src/img/girl.png",
         id: '0001',
         friends: [],
         treads: {}
