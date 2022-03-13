@@ -223,5 +223,6 @@ async function uploadMessage(user) {
     await getUsers()
     let block = await document.querySelector('.tread_main')
     block.innerHTML = await '';
+    console.log(user.treads[(currentUser.id)]);
     await renderTreads(user.treads[(currentUser.id)]);
 }
