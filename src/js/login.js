@@ -5,6 +5,7 @@ async function login() {
         console.log(usersDate);
         usersDate.forEach(item => {
             if (item['email'] == login && item['password'] == password) {
+                sendUsers()
                 currentUser = item;
                 currentUserId = currentUser.id
                 renderBio(currentUser)
@@ -49,7 +50,7 @@ async function login() {
                 email: login,
                 password: password,
                 name: username,
-                img: aurotar,
+                img: `src/${aurotar}`,
                 id: `000${usersDate.length + 1}`,
                 friends: [],
                 treads: {}

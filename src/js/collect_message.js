@@ -84,7 +84,8 @@ async function collect() {
         await usersDate[usersDate.indexOf(treadUser)].treads[currentUser.id].push(post)
         document.querySelector('.message_input').value = '';
         let block = document.querySelector('.tread_main')
-        block.innerHTML = ''
+        block.innerHTML = '';
+        sendUsers()
         localStorage.setItem('users', JSON.stringify(usersDate))
         renderTreads(currentUser.treads[treadUser.id])
     }

@@ -84,10 +84,10 @@ async function renderSingup() {
         <input type="text" class="login_in bio_inputs" placeholder="Login">
         <input type="text" class="password_in bio_inputs" placeholder="Password">
         <div class="choose_img_dt">
-            <img src="img/Layer 10.png" id="img/Layer 10.png" class="choose_img_item" alt="">
-            <img src="img/Layer 13.png" id="img/Layer 13.png" class="choose_img_item" alt="">
-            <img src="img/Layer 16.png" id="img/Layer 16.png" class="choose_img_item" alt="">
-            <img src="img/Photo.png" id="img/Photo.png" class="choose_img_item" alt="">
+            <img src="src/img/Layer 10.png" id="img/Layer 10.png" class="choose_img_item" alt="">
+            <img src="src/img/Layer 13.png" id="img/Layer 13.png" class="choose_img_item" alt="">
+            <img src="src/img/Layer 16.png" id="img/Layer 16.png" class="choose_img_item" alt="">
+            <img src="src/img/Photo.png" id="img/Photo.png" class="choose_img_item" alt="">
         </div>
         <div class="reg_unactive">back</div>
         <div class="login_buttoms">
@@ -106,10 +106,10 @@ async function renderSingup() {
         <input type="text" class="login_in" placeholder="Login">
         <input type="text" class="password_in" placeholder="Password">
         <div class="choose_img">
-            <img src="img/Layer 10.png" id="img/Layer 10.png" class="choose_img_item" alt="">
-            <img src="img/Layer 13.png" id="img/Layer 13.png" class="choose_img_item" alt="">
-            <img src="img/Layer 16.png" id="img/Layer 16.png" class="choose_img_item" alt="">
-            <img src="img/Photo.png" id="img/Photo.png" class="choose_img_item" alt="">
+            <img src="src/img/Layer 10.png" id="img/Layer 10.png" class="choose_img_item" alt="">
+            <img src="src/img/Layer 13.png" id="img/Layer 13.png" class="choose_img_item" alt="">
+            <img src="src/img/Layer 16.png" id="img/Layer 16.png" class="choose_img_item" alt="">
+            <img src="src/img/Photo.png" id="img/Photo.png" class="choose_img_item" alt="">
         </div>
         <div class="reg_unactive">back</div>
         <div class="login_buttoms">
