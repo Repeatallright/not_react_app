@@ -1,6 +1,6 @@
 
 let postsDate = []
-getPosts()
+
 
 let usersDate = JSON.parse(localStorage.getItem('users')) || [
     person = {
