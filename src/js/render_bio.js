@@ -45,7 +45,7 @@ function renderBio(user) {
 </div>`
         bio = document.querySelector('.mobile_bio')
         bio.style.display = 'flex'
-        renderNews()
+        returnNewsMain()
         hideMenu()
         bio.innerHTML = mobile_block
         if (user == currentUser) {
